@@ -1,0 +1,149 @@
+<!doctype html>
+<!-- This website created by: Seulki Oh, June 1, 2019 -->
+<html>
+<head>
+<meta charset="UTF-8">    
+<title>Jenny Seulki Oh</title>
+<!--Meta Keywords  -->
+<meta name="description" content="Portfolio">
+<meta name="keywords" content="Webdevelopment, Portfolio, Webdesign, Web developer, Front-end developer">
+<meta name="author" content="Portfolio">        
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Mobile Meta -->    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google Fonts -->     
+<link href="https://fonts.googleapis.com/css?family=Barriecito|Julius+Sans+One|Open+Sans&display=swap" rel="stylesheet">
+<!--jQeury     -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">	
+<!--Icons    -->
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<!-- Core CSS file --> 
+<link href="style.css" rel="stylesheet" type="text/css">
+<!--bootstrap CDN-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>	
+</head>
+  
+<!--body start   -->
+<body>	
+
+<header>	
+<!--Logo Section	-->
+<a href="index.html"><img src="jlogo1.png" class="jLogo" alt="Jenny Logo"/></a>
+	
+<!--nav section start-->
+<nav>	
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+	  <div class="container">
+		<ul>
+			<li rel="one"><a href="index.html" data-text="home">home</a></li>
+			<li rel="two"><a href="about.html" data-text="about">about</a></li>
+			<li rel="three"><a href="project.html" data-text="projects">projects</a></li>
+			<li rel="four"><a href="contact.html" data-text="contact">contact</a></li>
+		</ul>
+	  </div>
+  </div>
+</div>
+	
+<span class="main_nav" onclick="openNav()"> &#9776; </span>
+</nav>	
+	
+</header>	
+<!--Main-navigation end --> 
+	
+	
+<!--Right side link-->
+<div class="main_link">
+<a class="main_link" href="about.html" data-text="about"><h7>JENNY OH</h7></a>
+		
+<a class="main_link" href="https://www.linkedin.com/in/seulkioh1004/"><h7>LINKEDIN</h7></a>
+	
+<a class="main_link" href="https://github.com/JennyOh1004"><h7>Github</h7></a>		
+	
+<a  class="main_link" href="mailto:ohseulki1004@gmail.com">
+<h7>EMAIL</h7></a>	
+	
+</div>	
+<!--Right side link end-->	
+	
+	
+<div class="container centering-wrap">
+      <div class="row">	
+  <div class="col-10 offset-1">
+	<div class="header show-on-scroll">
+      <div class="main-photo"></div>
+        <h2 class="heading">Contact</h2>
+    </div>
+    
+	<div>
+          <h3 class="sayhello">Say hello to Jenny</h3>
+		<br />
+			<p class="tell"><strong>Telephone</strong><br/>
+              <a class="underline" href="tel:19195648286">+1 919 564 8286</a>
+		 	</p>
+		  <br />
+		  <br />
+		
+			<p class="e-mail"><strong>E-mail</strong><br/>
+              <a class="underline" href="mailto:ohseulki1004@gmail.com" >ohseulki1004@gmail.com</a>
+	 		</p>
+		  <br />
+		  <br />
+	 		
+	 		<p class="git"><strong>Github</strong><br/>
+		 	  <a class="underline" href="https://github.com/JennyOh1004">
+				github.com/JennyOh1004</a>
+		 	</p>
+		  <br />
+		  <br />
+		 	
+		 	<p class="linkedin"><strong>Linkedin</strong><br/>
+              <a class="underline" href="https://www.linkedin.com/in/seulkioh1004/" >linkedin.com/in/seulkioh1004</a>
+	 		</p>
+		
+		
+	<!--Contact form section  -->
+		<div class="contact_form col-10 offset-1">
+		 	<h3 class="contactme">If you have any question, please do not hesitate. Contact me. </h3>
+		 		
+            <form action="https://formspree.io/ohseulki1004@gmail.com" method="POST">
+		      <div>
+			     <input type="text" class="firstName" name="First Name" required placeholder="First Name" />
+		      </div>
+		      <div>
+			     <input type="text" class="lastName" name="Last Name" required placeholder="Last Name" />
+		      </div>
+		      <div>
+			     <input type="email" class="email" name="E-mail Address" required placeholder="E-mail Address" />
+		      </div>
+		      <div>
+			     <textarea name="Message" class="msg" required placeholder="Message" ></textarea>
+              </div>
+		      <div>
+			<button type="submit" class="submit">Submit</button>
+		 </div>
+	   </form>
+      </div>
+	</div>
+  </div>
+</div>
+</div>
+
+
+<!-- JavaScript and jQuery files placed at the end of the document so the pages load faster -->        
+
+<script src="overlay.js"></script>
+<script src="fadeIn.js"></script>
+	
+<script src="show-on-scroll.js"></script>
+	
+
+	
+<!--body end    -->
+</body>    
+</html>
